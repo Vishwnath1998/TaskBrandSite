@@ -1,0 +1,144 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10rem;
+}
+ .navbar-nav :hover{
+    border: 0.5px solid rgb(122, 121, 121);
+    height: 4vh;
+}
+.image_logo{
+   width: 50%;
+   opacity: 2;
+}
+.head:hover{
+    border:0.5px solid rgb(122, 121, 121);
+    cursor: pointer;
+}
+.search-box{
+    width: 40vw;
+}
+.btn{
+   height: 35px;
+   border: 1 px solid rgb(136, 136, 136)
+}
+button{
+    border: 1px solid #ef4478;
+    padding: 4px 14px;
+    background-color: #ef4478;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 50px;
+}
+button:focus{
+    outline: none !important;
+}
+.action{
+    display: flex;
+    flex-direction:column;
+    display: inline;
+    margin-left: 50px;
+}
+ .action i{
+    border: 1px solid rgb(136, 136, 136);;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+.action i:hover{
+color: blue;
+cursor: pointer;
+}
+.head{
+  margin-right: 70px;
+}
+hr{
+   bottom: 2px;
+}
+.nav-bar{
+    bottom: 20px;
+}
+.list-group-item :hover{
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+.heading h3 {
+    padding-left: 100px;
+    padding-top: 40px;
+} 
+.middle-section{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.download{
+    background: #e5e1e161;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #c7c2c2e3;
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.brands {
+    height: auto;
+    padding: 50px;
+
+}
+.brands h4 {
+    align-items: center;
+}
+
+.brand-info {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  width: auto !important;
+}
+
+.companies {
+    border: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies p {
+    margin: 0px !important;
+}
